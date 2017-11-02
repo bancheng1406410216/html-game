@@ -12,3 +12,19 @@
 	color:red;
 }
 
+#my_hand{
+	clear:both;
+	border: 1px solid gray;
+	height: 250px;
+	width: 835px;
+}
+
+#btnHit, #btnStick, #btnRestart{
+	display:none;
+	float:left;
+}
+
+h3 {
+	display: inline;
+	padding-right: 40px;
+}
