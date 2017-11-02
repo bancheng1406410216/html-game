@@ -5,3 +5,6 @@
 .current_hand{
 	float:left;
 }
+.win{
+	color:green;
+}
