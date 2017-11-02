@@ -12,3 +12,10 @@
 .lose{
 	color:red;
 }
+
+#my_hand{
+	clear:both;
+	border: 1px solid gray;
+	height: 250px;
+	width: 835px;
+}
