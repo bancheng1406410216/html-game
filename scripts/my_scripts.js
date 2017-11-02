@@ -185,26 +185,5 @@ $(document).ready(function(){
 		$("#btnRestart").toggle();
 	}
 	
-	$("#btnStick").click( function(){
-		$("#imgResult").attr('src','images/x2.png');
-		$("#hdrResult").html('放弃治疗并没有什么卵用！')
-					   .attr('class', 'lose');
-		$("#result").toggle();
-		end();
-	});
 	
-	$("#btnRestart").click( function(){
-		$("#result").toggle();
-		$(this).toggle();
-		$("#my_hand").empty();
-		$("#hdrResult").html('');
-		$("#imgResult").attr('src','images/check.png');
-		
-		used_cards.length = 0;
-		hand.cards.length = 0;
-		hand.current_total = 0;
-		
-		$("#btnDeal").toggle()
-					 .trigger('click');
-	});
 });
